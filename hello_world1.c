@@ -2,11 +2,11 @@
 void _(void *msg){
 	int i,j=16777216;
 	char tmp;
-	if(*((char*)&j)==0){
+	if(!*((char*)&j)){
 		for(i=0;i<4;i++){
-			tmp = *((char *)msg+7-i);
-			*((char *)msg+7-i) = *((char *)msg+i);
-			*((char *)msg+i) = tmp;
+			tmp = *((char*)msg+7-i);
+			*((char*)msg+7-i) = *((char*)msg+i);
+			*((char*)msg+i) = tmp;
 		}
 	}
 }
