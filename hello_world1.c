@@ -1,6 +1,6 @@
 #include<stdio.h>
 void _(void *msg){
-	int i,j=4096;
+	int i,j=268435456;
 	char tmp;
 	if(*((char*)&j)==0){
 		for(i=0;i<4;i++){
