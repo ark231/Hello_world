@@ -1,5 +1,9 @@
 1:
-	gcc -o hello_world1 hello_world1.c -w
+	gcc -O0 -o hello_world1 hello_world1.c -w
+1o2:
+	gcc -O2 -o hello_world1 hello_world1.c -w
+1o3:
+	gcc -O3 -o hello_world1 hello_world1.c -w
 1d:
 	gcc -g3 -o hello_world1 hello_world1.c
 2:
