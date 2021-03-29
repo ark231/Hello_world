@@ -97,6 +97,6 @@ int main(){
 		msg[j]*=l;
 		_(&msg[j]);
 	}
-	printf(msg);
+	printf("%s",(unsigned char*)msg);
 	return 0;
 }
